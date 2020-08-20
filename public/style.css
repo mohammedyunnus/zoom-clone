@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#videoGrid {
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+}
+
+video {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+}
